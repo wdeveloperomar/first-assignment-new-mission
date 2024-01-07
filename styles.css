@@ -20,19 +20,19 @@ body {
     margin: 0 auto;
 }
 
-.section-description {
-    color: #07021199;
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
+.content-description {
+color: #ffffffcc;
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
 }
 
 
 /* -----------------header section styles-------------- */
 #header {
     max-width: 1320px;
-    height: 600px;
+    min-height: 600px;
     margin: 50px auto 0;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./Assets/Banner\ Image.png');
     border-radius: 16px;
@@ -107,6 +107,71 @@ body {
 .offer-section img:hover {
     transform: translateX(8px);
 }
+
+/* ----------------------party section styles--------------- */
+#party-section {
+   max-width: 1320px;
+   min-height: 600px;
+   margin: 120px auto 0;
+   background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./Assets/Vectorrr.png') ;
+   background-position: center;
+   background-size: cover;
+   border-radius: 12px;
+   background-attachment: fixed;
+
+
+}
+
+.party-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.party-content {
+    margin: 126px;
+}
+
+.party-content-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px; 
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+}
+
+.join-now-btn {
+    display: inline-block;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 48px 0 0 32px;
+    text-decoration: none;
+    transition: 0.4s;
+    
+}
+
+.join-now-btn:hover {
+    font-size: 21px;
+}
+
+.party-year-picture img {
+    width: 320px;
+    height: 465px;
+    margin: 0 138px 0 0;    
+}
+
+
+
+
+
+
+
+
+
 
 
 
