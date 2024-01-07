@@ -66,7 +66,47 @@ body {
     display: block;
 }
 
+/* ------------------------main section styles--------------------- */
 
+/* ---------------------------offer section styles------------------ */
+.offer-section {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.offer-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.offer-description {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px; 
+}
+
+.offer-subtitle {
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.offer-section img {
+    width: 800px;
+    height: 500px;
+    margin-top: 48px;
+    transition: 0.8s;
+}
+
+.offer-section img:hover {
+    transform: translateX(8px);
+}
 
 
 
