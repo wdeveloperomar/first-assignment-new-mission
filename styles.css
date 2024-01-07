@@ -15,3 +15,15 @@ body {
     font-family: 'Merriweather', serif;
 }
 
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.section-description {
+    color: #07021199;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
