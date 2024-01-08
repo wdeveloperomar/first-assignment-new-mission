@@ -280,6 +280,68 @@ line-height: 30px;
 }
 
 
+/* ------------------discount section styles-------------- */
+.discount-section {
+    max-width: 1320px;
+    min-height: 967px;
+    margin: 120px auto 0;
+    text-align: center;
+}
+
+.discount-subtitle {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.discount-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+
+.discount-title span {
+    color: #F00;
+}
+
+.discount-description {
+    color: #07021199;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 64px;
+}
+
+.discount-banner {
+    width: 1320px;
+    height: 660px;
+    background-image: url('./Assets/Rectangle\ 2.png'), url('./Assets/images/Rectangle\ 1.png');
+    background-position: bottom, right top;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.offer-box {
+    width: 500px;
+    height: 400px;
+    margin: 0 0 47px 150px;
+}
+
+.discount-img {
+    margin: 0 285px 290px 0;
+
+}
+
+
+
+
 
 
 
