@@ -332,6 +332,7 @@ line-height: 30px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    position: relative;
 }
 
 .offer-box img {
@@ -339,7 +340,9 @@ line-height: 30px;
 }
 
 .discount-img {
-    margin: 0 285px 290px 0;
+    position: absolute;
+    top: 76px;
+    right: 276px;
 
 }
 
