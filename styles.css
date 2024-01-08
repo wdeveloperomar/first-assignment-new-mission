@@ -207,6 +207,80 @@ line-height: 30px;
 
 }
 
+/* ---------------------new offer section styles------------- */
+
+.new-offer-section {
+    width: 1320px;
+    height: 735px;
+    margin: 120px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
+.new-offer-column-1 {
+    width: 400px;
+}
+
+.column-subtitle {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+   padding-bottom: 16px;
+}
+
+.column-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 22px;
+}
+
+.column-descripton {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.new-offer-column-2 {
+    width: 463px;
+    height: 463px;
+    border: 15px solid #F00;
+    border-radius: 463px;
+}
+
+.new-offer-column-2-picture {
+    margin: 33px;
+}
+
+.new-offer-column-3 {
+    width: 300px;
+
+}
+
+.column-title-year {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+.new-offer-column-3 img {
+    width: 140px;
+    height: 140px;
+    margin-top: 43px;
+}
+
+
+
 
 
 
