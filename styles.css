@@ -517,7 +517,7 @@ line-height: 30px;
 }
 
 .social-links a img:hover {
-    transform: translateY(-5px);
+    transform: scale(1.1);
 }
 
 .copy-right p {
