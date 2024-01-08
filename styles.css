@@ -161,7 +161,8 @@ line-height: 30px;
 .party-year-picture img {
     width: 320px;
     height: 465px;
-    margin: 0 138px 0 0;    
+    margin: 0 138px 0 0;
+   
 }
 
 .party-details {
@@ -457,6 +458,85 @@ line-height: 30px;
     transform: translateX(-40px);
     background: #ff1e00;
 }
+
+
+/* ----------------------footer section styles--------------- */
+
+.footer-section {
+    width: 100%;
+    background: #070211;
+    margin-top: 120px;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.address {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 120px 0 50px 0;
+
+}
+.contact {
+    margin: 120px 150px 50px 0;
+}
+
+.contact a {
+    display: block;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.social-links {
+   margin: 48px auto;
+}
+
+.social-links a img {
+    margin: 0 24px 0 0;
+    transition: 0.8s;
+}
+
+.social-links a img:hover {
+    transform: translateY(-5px);
+}
+
+.copy-right p {
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin: 50px 0 120px 0;
+}
+
+.unsubribe-btn {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 50px 0 120px 0;
+    text-decoration: none;
+    padding: 20px 40px;
+    background: #F00;
+    border-radius: 40px;
+    transition: 0.8s;
+}
+
+.unsubribe-btn:hover {
+    transform: translateX(-5px);
+    background: #ff1e00;
+}
+
+
 
 
 
